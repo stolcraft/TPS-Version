@@ -5,3 +5,5 @@ V2 : Exception
 V3 : Interface
 V4 : Classes Abstraites
 V5 : Généricité
+
+Demo Lambda compare une chaine de caract�re avec expression Lambda
