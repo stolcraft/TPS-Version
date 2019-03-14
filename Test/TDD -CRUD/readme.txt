@@ -1,0 +1,2 @@
+- Utilisation des test unitaires façon TDD avec la méthode CRUD
+- Doc contenant tous les scénarios des tests
