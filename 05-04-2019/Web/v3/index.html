@@ -1,81 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+		
         <title>Premiere page html</title>
     </head>
 
     <body>
 	<script type="text/javascript" src="javascript.js"></script>
+	<h1>SITE WEB </h1>
+	<div id="test">
+	<p>Salut les ptits loulou voici mon premier site </p>
+	<p> je vous propose de voir mon logo : </p></div>
 	
-	 <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
-	
-	<h1 class="display-4">SITE WEB </h1>
-	
-	<div id="test" class="card" style="width: 18rem;">
-
-  <div class="card-body">
-    <h5 class="card-title">Salut les ptits loulou voici mon premier site</h5>
-    <p class="card-text">je vous propose de voir mon logo:</p>
-	<img src="logov2.png" class="card-img-top" alt="joliiiieeee">
-  </div>
-</div></br></br></br>
-	
-	
-	
-	
-	
-	<h4>Cliquez sur l'image<span class="badge badge-warning">New</span></h4>
+	<h4>Cliquez sur l'image</h4>
 	<img src="logo2.png" id="image" border="5" onclick="changeImage(this);" />
 	
-	
-	
-	
-	<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Adresse Mail</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ecrivez votre adresse mail">
+	<form id="test" action="/ma-page-de-traitement" method="post">
+	<div>
+        <label for="satisafait">etes vous satifait? :</label>
+        <input type="range" id="satisafait" name="satisafait">
+    </div>
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="name" name="nom">
+    </div>
+	<div>
+        <label for="prenom">Prenom :</label>
+        <input id="text" name="prenom"/>
+    </div>
+    <div>
+        <label for="date">date :</label>
+        <input type="date" id="date" name="date">
+    </div>
+	<p>
+       <label for="ameliorer">
+       Comment pensez-vous que je puisse améliorer mon site ?
+       </label>
+       <br />
+       
+       <textarea name="ameliorer" id="ameliorer" rows="10" cols="50">
+       Améliorer ton site ?!
+       Mais enfin ! Il est tellement génialissime qu'il n'est pas nécessaire de l'améliorer !
+       </textarea>       
+   </p>
     
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Mot de passe</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ecrivez votre mot de passe">
-	<small id="emailHelp" class="form-text text-muted">Ne partagez jamais votre mot de passe</small>
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Restez connecté</label>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Choissisez un nombre</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <button type="submit" class="btn btn-outline-primary">Connexion</button>
 </form>
-
-
-
-
-
     
 	<p>Bonjour. Vous souhaitez visiter la suite <a href="page2.html">Page 2</a> ?<br /></p>
 	
