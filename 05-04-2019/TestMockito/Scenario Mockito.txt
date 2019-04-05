@@ -1,0 +1,13 @@
+Scenario "creation étudiant" :
+
+La création d’un étudiant représenté par l’ensemble 
+de ses caractéristiques entraîne un nouvel enregistrement dans le système d'information.
+
+@Test methode : TestajouterEtudiant
+
+Scenario "lecture un Etudiant ": 
+
+La récupération des informations d’un étudiant à partir 
+de son identifiant correspond à l’ensemble des caractéristiques de l’étudiant..
+
+@Test methode : TestlireEtudiant

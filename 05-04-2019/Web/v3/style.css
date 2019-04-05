@@ -1,0 +1,17 @@
+body 
+{
+	background-color : green;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#test
+{
+	background-color : grey;
+	text-align : center;
+}
+
+h1
+{
+	color : red;
+	text-align : center;
+}

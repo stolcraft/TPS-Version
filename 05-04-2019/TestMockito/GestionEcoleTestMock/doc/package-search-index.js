@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"fr.ensup.gestionecole.dao"},{"l":"fr.ensup.gestionecole.domaine"},{"l":"fr.ensup.gestionecole.presentation"},{"l":"fr.ensup.gestionecole.service"}]
