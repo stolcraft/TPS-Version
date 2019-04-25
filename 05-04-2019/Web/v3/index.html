@@ -2,21 +2,24 @@
 <html>
     <head>
         <meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
-		
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+		<!-- Voici le titre de la page -->
         <title>Premiere page html</title>
     </head>
 
-    <body>
-	<script type="text/javascript" src="javascript.js"></script>
+    <body id="body">
+	<!-- On intègre une page javascript dans la page principale -->
+	<script type="text/javascript" src="js/javascript.js"></script>
 	<h1>SITE WEB </h1>
 	<div id="test">
-	<p>Salut les ptits loulou voici mon premier site </p>
-	<p> je vous propose de voir mon logo : </p></div>
+	<p>Salut les ptits loulou voici mon premier site </br>
+	je vous propose de voir mon logo : </p></div>
 	
+	<!-- titre H4 pour renseigner l'utilisateur -->
 	<h4>Cliquez sur l'image</h4>
-	<img src="logo2.png" id="image" border="5" onclick="changeImage(this);" />
+	<img src="assets/logo2.png" id="image" value="image" border="5"  />
 	
+	<!-- On intègre un formulaire à la page HTML -->
 	<form id="test" action="/ma-page-de-traitement" method="post">
 	<div>
         <label for="satisafait">etes vous satifait? :</label>
@@ -47,8 +50,14 @@
    </p>
     
 </form>
-    
+    <!-- On insère une deuxième page -->
 	<p>Bonjour. Vous souhaitez visiter la suite <a href="page2.html">Page 2</a> ?<br /></p>
+	
+	<p> Cliquez sur la couleur de votre choix </p>
+	<div id="ROUGE">ROUGE</div></br>
+	<div id="VERT">VERT</div></br>
+	<div id="JAUNE">JAUNE</div></br>
+	<div id="VIOLET">VIOLET</div></br>
 	
 	
     </body>

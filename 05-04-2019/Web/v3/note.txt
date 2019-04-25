@@ -1,0 +1,3 @@
+fonctionel 1,5
+ergonomique 2
+maintenance 4

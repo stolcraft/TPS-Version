@@ -1,0 +1,66 @@
+body 
+{
+	background-color : green;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#test
+{
+	background-color : grey;
+	border-radius: 10px;
+	text-align : center;
+	display : block ;
+	margin-left : 50xp;
+	margin-right : 50xp;
+}
+
+h1
+{
+	color : red;
+	text-align : center;
+}
+
+
+#ROUGE {
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#555;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	box-shadow:1px 1px 3px #999;
+	
+}
+
+#VERT {
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#555;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	box-shadow:1px 1px 3px #999;
+	
+}
+
+#VIOLET {
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#555;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	box-shadow:1px 1px 3px #999;
+	
+}
+
+#JAUNE {
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#555;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	box-shadow:1px 1px 3px #999;
+	
+}
